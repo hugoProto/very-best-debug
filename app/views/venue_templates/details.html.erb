@@ -1,3 +1,11 @@
+<body>
+    <nav>
+      <ul>
+        <li><a href="/users">Users</a></li> 
+        <li><a href="/venues">Venues</a></li> 
+      </ul>
+    </nav>
+
 <h1>venue Details</h1>
 
 <dl>
@@ -39,7 +47,7 @@
 
   <dt>Delete venue</dt>
   <dd>
-    <a href="/delete_venue/<% @the_venue.id %>">
+    <a href="/delete_venue/<%= @the_venue.id %>">
       Delete this venue
     </a>
   </dd>
